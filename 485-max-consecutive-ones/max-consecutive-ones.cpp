@@ -6,9 +6,9 @@ public:
             if(nums[i]==0){
                 counter=0;
             }
-            else
+            else{
               counter++;
-            max1s=max(max1s,counter);
+              max1s=max(max1s,counter);}
         }
         return max1s;
     }
